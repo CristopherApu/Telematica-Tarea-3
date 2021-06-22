@@ -23,7 +23,7 @@ Servo                   SM;
     t_d_e               = pulseIn (echo, HIGH);
     d                   = (t_d_e / 2) / 29.15;
     Serial.print        (d);
-    Serial.println      ("cm");
+    Serial.println      (" cm");
     delay               (1000);
 
         if (d < 50){
